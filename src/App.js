@@ -1,14 +1,11 @@
-import Nav from "./Nav";
+import Hero from "./components/Hero";
+import Nav from "./components/Nav";
 
 const App = () => {
   return (
     <>
-      <Nav>
-
-      </Nav>
-      <h1 class="text-3xl font-bold underline">
-        Lets-Go
-      </h1>
+      <Nav></Nav>
+      <Hero></Hero>
     </>
   );
 }
