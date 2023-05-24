@@ -10,7 +10,7 @@ add tilt
 add skill page
 
 FIX:
-sticky navbar (put in on top)
+sticky navbar (put in on top or change hero image z-index)
 responsive projects component
 
 MOD:
