@@ -1,7 +1,7 @@
 
 const Project = ({ position, img, title, desc }) => {
     return (
-        <div className="flex h-screen">
+        <div className="flex h-screen snap-start">
             {
                 (position) ?
                     <>
