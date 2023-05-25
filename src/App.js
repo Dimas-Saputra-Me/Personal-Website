@@ -5,7 +5,6 @@ import Project from "./components/Projects";
 
 /*
 TODO: 
-add typewriting effect on name
 add tilt
 add skill page
 
