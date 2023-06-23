@@ -1,9 +1,8 @@
-
 const Hero = () => {
     return (
         <div id="home" className="hero min-h-screen bg-base-200 snap-start">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src="https://wallpapercave.com/wp/wp8499826.png" className="max-w-sm rounded-lg shadow-2xl hover:scale-105 transition" alt="dimas-saputra-me" />
+                    <img src={process.env.PUBLIC_URL + '/assets/dimas_saputra.jpeg'} className="max-w-sm rounded-lg shadow-2xl hover:scale-105 transition" alt="dimas-saputra-me" />
                     <div className="pr-10">
 
                         {/* Nama */}
@@ -24,12 +23,12 @@ const Hero = () => {
 
                         {/* Description */}
 
-                        <p className="pt-2 pb-6 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet arcu sodales hendrerit efficitur. Vivamus vel nisl in ligula efficitur luctus. Sed fermentum libero lectus, sed commodo justo molestie venenatis. Fusce lacinia eros vitae metus feugiat accumsan. Nunc nulla diam, mollis ac est ut, pulvinar dictum metus. Praesent nec varius erat. Sed viverra condimentum urna.</p>
+                        <p className="pt-2 pb-6 text-justify">Seorang mahasiswa Informatika dengan keahlian dalam pengembangan perangkat lunak. Menguasai front-end, back-end, dan mobile development. Bersemangat menciptakan inovasi teknologi untuk memberi dampak positif yang luas.</p>
 
                         <div className="mockup-code">
-                            <pre data-prefix="$"><code>npm install HuTao</code></pre>
+                            <pre data-prefix="$"><code>npm install happiness</code></pre>
                             <pre data-prefix=">" className="text-warning"><code>installing...</code></pre>
-                            <pre data-prefix=">" className="bg-error text-error-content"><code>Error! Hu Tao Not Found!</code></pre>
+                            <pre data-prefix=">" className="text-success"><code>Done!</code></pre>
                         </div>
 
                         <div className="flex space-x-4">
