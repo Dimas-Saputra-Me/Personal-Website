@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Project from "./components/Projects";
+import Quote from "./components/Quote";
 import Skill from "./components/Skill";
 
 /*
@@ -23,6 +24,7 @@ modify footer content
 modify education content
 modify skill content
 modify organization content
+modify quote content
 modify language content to english
 */
 
@@ -60,6 +62,8 @@ const App = () => {
         img={"https://img.freepik.com/free-vector/people-starting-business-project_23-2148866842.jpg"}>
 
       </Project>
+
+      <Quote/>
 
       <Footer />
     </div>

@@ -11,12 +11,12 @@ const Experience = () => {
                 stiffness: 260,
                 damping: 20
             }}
-            className="h-screen snap-start">
-            <div className="flex w-full h-full p-20">
+            className="h-screen max-sm:h-fit snap-start">
+            <div className="flex max-sm:flex-col gap-3 w-full h-full p-20">
                 {/* Education */}
-                <div className="flex-1 card bg-base-200 rounded-box place-items-center">
-                    <h1 className="text-5xl font-bold my-16">Education</h1>
-                    <ul className="steps steps-vertical">
+                <div className="flex-1 card bg-base-200 rounded-box place-items-center px-5">
+                    <h1 className="text-5xl max-sm:text-[2rem] font-bold my-16 max-sm:my-8">Education</h1>
+                    <ul className="steps steps-vertical max-sm:px-7 max-sm:pb-7">
                         <li className="step step-success">SD - ToBeWritten</li>
                         <li className="step step-success">SMP - ToBeWritten</li>
                         <li className="step step-success">SMA - ToBeWritten</li>
@@ -26,9 +26,9 @@ const Experience = () => {
                 <div className="divider divider-horizontal"></div>
 
                 {/* Knowledge */}
-                <div className="flex-1 card bg-base-200 rounded-box place-items-center">
-                    <h1 className="text-5xl font-bold my-16">Organization</h1>
-                    <ul class="list-disc ms-10">
+                <div className="flex-1 card bg-base-200 rounded-box place-items-center px-5">
+                    <h1 className="text-5xl max-sm:text-[2rem] font-bold my-16 max-sm:my-8">Organization</h1>
+                    <ul class="list-disc ms-10 max-sm:ms-5 max-sm:px-7 max-sm:pb-7">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac.</li>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac.</li>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac.</li>
@@ -37,9 +37,9 @@ const Experience = () => {
                 <div className="divider divider-horizontal"></div>
 
                 {/* Organization*/}
-                <div className="flex-1 card bg-base-200 rounded-box place-items-center">
-                    <h1 className="text-5xl font-bold my-16">Community</h1>
-                    <ul class="list-disc ms-10">
+                <div className="flex-1 card bg-base-200 rounded-box place-items-center px-5">
+                    <h1 className="text-5xl max-sm:text-[2rem] font-bold my-16 max-sm:my-8">Community</h1>
+                    <ul class="list-disc ms-10 max-sm:ms-5 max-sm:px-7 max-sm:pb-7">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac.</li>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac.</li>
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac.</li>

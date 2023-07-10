@@ -28,15 +28,15 @@ const Hero = () => {
             variants={container}
             initial="hidden"
             animate="visible"
-            id="home" className="hero min-h-screen bg-base-200 snap-start">
-            <div className="hero-content flex-col lg:flex-row-reverse">
-                <motion.img src={process.env.PUBLIC_URL + '/assets/dimas-saputra.jpeg'} variants={item} key={2} className="max-w-sm mask mask-squircle shadow-2xl hover:scale-105 transition" alt="dimas-saputra-me" />
+            id="home" className="hero min-h-screen max-sm:h-fit bg-base-200 snap-start">
+            <div className="hero-content max-sm:flex-col lg:flex-row-reverse">
+                <motion.img src={process.env.PUBLIC_URL + '/assets/dimas-saputra.jpeg'} variants={item} key={2} className="max-w-sm max-sm:w-64 mask mask-squircle shadow-2xl hover:scale-105 transition" alt="dimas-saputra-me" />
                 <motion.div className="pr-10" variants={item} key={1}>
 
                     {/* Nama */}
 
                     <header className="group">
-                        <h1 className="text-5xl font-bold">
+                        <h1 className="text-5xl max-sm:text-[2rem] font-bold">
                             Hi, I'm <br />
                             <span
                                 className="text-purple-400 inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap will-change-transform"
@@ -52,12 +52,6 @@ const Hero = () => {
                     {/* Description */}
 
                     <p className="pt-2 pb-6 text-justify">Seorang mahasiswa Informatika dengan keahlian dalam pengembangan perangkat lunak. Menguasai front-end, back-end, dan mobile development. Bersemangat menciptakan inovasi teknologi untuk memberi dampak positif yang luas.</p>
-
-                    <div className="mockup-code">
-                        <pre data-prefix="$"><code>npm install</code></pre>
-                        <pre data-prefix=">" className="text-warning"><code>installing...</code></pre>
-                        <pre data-prefix=">" className="text-success"><code>Done!</code></pre>
-                    </div>
 
                     <div className="flex space-x-4">
                         <button className="btn mt-5"><a href="https://github.com/Dimas-Saputra-Me" target="_blank" rel="noopener noreferrer">Github</a></button>

@@ -25,6 +25,7 @@ module.exports = {
           '95%': { width: '10ch' },
         },
       },
+
     },
   },
   plugins: [
