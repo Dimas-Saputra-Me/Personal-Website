@@ -11,11 +11,10 @@ TODO:
 add 3d button contact me in hero
 
 FIX:
-responsive projects component
 steps sizing in education
 
 DEVELOP:
-Skill page
+Enhance responsive
 Animation
 
 MOD:
