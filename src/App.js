@@ -18,13 +18,9 @@ Enhance responsive
 Animation
 
 MOD:
-modify project content
-modify footer content
-modify education content
-modify skill content
-modify organization content
-modify quote content
-modify language content to english
+modify project content [description section]
+modify skill content [others section]
+modify quote content [make it dynamic call to api]
 */
 
 const App = () => {
@@ -40,29 +36,29 @@ const App = () => {
 
       <Project
         position={true}
-        title={"Project Title"}
+        title={"Movie Website"}
         desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat, tellus eget ultrices congue, dolor dui mollis ligula, vel viverra mauris libero sed leo. Morbi ultricies, velit non condimentum dictum, erat ante venenatis ex, in mollis sapien ex at purus. Duis ut finibus dui. Sed dictum arcu vitae massa finibus, quis mattis odio interdum. Morbi imperdiet convallis metus at tempus. Ut vitae lobortis libero. Etiam sit amet elit eu mauris sollicitudin consequat. Donec sit amet arcu ut lectus sodales congue. Duis ornare dolor pellentesque rutrum dapibus. Pellentesque imperdiet nunc ut elit tincidunt molestie. Phasellus at urna pellentesque, pellentesque felis eu, tincidunt lorem. Curabitur ut accumsan enim. In hendrerit turpis ac vulputate bibendum."}
-        img={"https://img.freepik.com/free-vector/people-starting-business-project_23-2148866842.jpg"}>
+        img={process.env.PUBLIC_URL + '/assets/project-1.png'}>
 
       </Project>
 
       <Project
         position={false}
-        title={"Project Title"}
+        title={"ASAH"}
         desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat, tellus eget ultrices congue, dolor dui mollis ligula, vel viverra mauris libero sed leo. Morbi ultricies, velit non condimentum dictum, erat ante venenatis ex, in mollis sapien ex at purus. Duis ut finibus dui. Sed dictum arcu vitae massa finibus, quis mattis odio interdum. Morbi imperdiet convallis metus at tempus. Ut vitae lobortis libero. Etiam sit amet elit eu mauris sollicitudin consequat. Donec sit amet arcu ut lectus sodales congue. Duis ornare dolor pellentesque rutrum dapibus. Pellentesque imperdiet nunc ut elit tincidunt molestie. Phasellus at urna pellentesque, pellentesque felis eu, tincidunt lorem. Curabitur ut accumsan enim. In hendrerit turpis ac vulputate bibendum."}
-        img={"https://img.freepik.com/free-vector/people-starting-business-project_23-2148866842.jpg"}>
+        img={process.env.PUBLIC_URL + '/assets/project-2.png'}>
 
       </Project>
 
       <Project
         position={true}
-        title={"Project Title"}
+        title={"URL Shortener"}
         desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat, tellus eget ultrices congue, dolor dui mollis ligula, vel viverra mauris libero sed leo. Morbi ultricies, velit non condimentum dictum, erat ante venenatis ex, in mollis sapien ex at purus. Duis ut finibus dui. Sed dictum arcu vitae massa finibus, quis mattis odio interdum. Morbi imperdiet convallis metus at tempus. Ut vitae lobortis libero. Etiam sit amet elit eu mauris sollicitudin consequat. Donec sit amet arcu ut lectus sodales congue. Duis ornare dolor pellentesque rutrum dapibus. Pellentesque imperdiet nunc ut elit tincidunt molestie. Phasellus at urna pellentesque, pellentesque felis eu, tincidunt lorem. Curabitur ut accumsan enim. In hendrerit turpis ac vulputate bibendum."}
-        img={"https://img.freepik.com/free-vector/people-starting-business-project_23-2148866842.jpg"}>
+        img={process.env.PUBLIC_URL + '/assets/project-3.png'}>
 
       </Project>
 
-      <Quote/>
+      <Quote />
 
       <Footer />
     </div>

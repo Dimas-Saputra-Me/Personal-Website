@@ -51,7 +51,7 @@ const Hero = () => {
 
                     {/* Description */}
 
-                    <p className="pt-2 pb-6 text-justify">Seorang mahasiswa Informatika dengan keahlian dalam pengembangan perangkat lunak. Menguasai front-end, back-end, dan mobile development. Bersemangat menciptakan inovasi teknologi untuk memberi dampak positif yang luas.</p>
+                    <p className="pt-2 pb-6 text-justify">Computer science student with expertise in software development. Mastering front-end, back-end, and mobile development. Passionate about creating technological innovations to have a broad positive impact.</p>
 
                     <div className="flex space-x-4">
                         <button className="btn mt-5"><a href="https://github.com/Dimas-Saputra-Me" target="_blank" rel="noopener noreferrer">Github</a></button>
