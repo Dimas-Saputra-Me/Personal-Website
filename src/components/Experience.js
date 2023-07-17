@@ -13,7 +13,7 @@ const Experience = () => {
                 damping: 20
             }}
             className="h-screen max-sm:h-fit snap-start">
-            <div className="flex max-sm:flex-col gap-3 w-full h-full p-20">
+            <div className="flex max-sm:flex-col gap-3 w-full h-full p-20 max-sm:p-5">
                 {/* Education */}
                 <div className="flex-1 card bg-base-200 rounded-box place-items-center px-5">
                     <h1 className="text-5xl max-sm:text-[2rem] font-bold my-16 max-sm:my-8">Education</h1>

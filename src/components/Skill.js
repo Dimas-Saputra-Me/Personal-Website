@@ -11,7 +11,7 @@ const Skill = () => {
                 damping: 20
             }}
             className="h-screen max-sm:h-fit snap-start">
-            <div className="flex w-full h-full p-20">
+            <div className="flex w-full h-full p-20 max-sm:p-5">
                 <div className="flex flex-col w-full border-opacity-50">
 
                     {/* Languages */}

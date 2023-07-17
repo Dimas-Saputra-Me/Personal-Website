@@ -11,6 +11,7 @@ TODO:
 add 3d button contact me in hero
 
 FIX:
+scroll effect glitch
 steps sizing in education
 
 DEVELOP:
