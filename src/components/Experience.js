@@ -46,7 +46,6 @@ const Experience = () => {
                     <ul class="list-disc ms-10 max-sm:ms-5 max-sm:px-7 max-sm:pb-7">
                         <li>Google Developer Student Clubs - Bandung Institute of Technology</li>
                         <li>Google Developer Student Clubs - East Java "Veteran" National Development University</li>
-                        <li>Google Developer Group - Surabaya</li>
                     </ul>
                 </div>
             </div>
