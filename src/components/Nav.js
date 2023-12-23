@@ -20,6 +20,7 @@ const Nav = () => {
                 <ul className="menu menu-horizontal px-1">
                     <li><a href="#home" className="btn btn-ghost normal-case text-xl">Home</a></li>
                     <li><a href="#aboutme" className="btn btn-ghost normal-case text-xl">About Me</a></li>
+                    <li><a href="https://drive.google.com/file/d/1V3ntGt7SXHQEGLrO4Eqfny7LHIROzSzj/view?usp=sharing" className="btn btn-ghost normal-case text-xl" target="_blank" rel="noreferrer">Curriculum Vitae</a></li>
                     <li><a href="#project" className="btn btn-ghost normal-case text-xl">Portfolio</a></li>
                     <li><a href="#contact" className="btn btn-ghost normal-case text-xl">Contact</a></li>
                 </ul>

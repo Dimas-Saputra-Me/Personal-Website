@@ -19,6 +19,7 @@ const Experience = () => {
                     <h1 className="text-5xl max-sm:text-[2rem] font-bold my-16 max-sm:my-8">Education</h1>
                     <ul className="steps steps-vertical max-sm:px-7 max-sm:pb-7 ">
                         <li className="step step-success">High School - State Senior High School 1 Sumenep</li>
+                        <li className="step">Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka - Machine Learning</li>
                         <li className="step">University - East Java "Veteran" National Development University</li>
                     </ul>
                 </div>
@@ -29,12 +30,15 @@ const Experience = () => {
                     <h1 className="text-5xl max-sm:text-[2rem] font-bold my-16 max-sm:my-8">Organization</h1>
                     <ul className="list-disc ms-10 max-sm:ms-5 max-sm:px-7 max-sm:pb-7">
                         <li>
-                            <p className="font-bold">Research and development member </p>
-                            State High School Informatics Association 1 Sumenep
+                            <p className="font-extrabold">Head of Division 2</p>
+                            <p className="font-bold">Informatics Association of Smansa - Sumenep</p>
+                            <p>Oversaw multiple sub-units, including Event Organizer, Research and Development, and Computer Laboratory Equipment and Nursing.</p>
                         </li>
+                        <br></br>
                         <li>
-                            <p className="font-bold">Head of division 2 </p>
-                            State High School Informatics Association 1 Sumenep
+                            <p className="font-extrabold">Head of Research and Development</p>
+                            <p className="font-bold">Informatics Association of Smansa - Sumenep</p>
+                            <p>Compiled a monthly evaluation recap, identifying challenges and devising optimal solutions.</p>
                         </li>
                     </ul>
                 </div>
@@ -46,6 +50,7 @@ const Experience = () => {
                     <ul class="list-disc ms-10 max-sm:ms-5 max-sm:px-7 max-sm:pb-7">
                         <li>Google Developer Student Clubs - Bandung Institute of Technology</li>
                         <li>Google Developer Student Clubs - East Java "Veteran" National Development University</li>
+                        <li>Informatics Learning Club - East Java "Veteran" National Development University</li>
                     </ul>
                 </div>
             </div>
