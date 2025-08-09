@@ -21,6 +21,24 @@ body {
   ::-webkit-scrollbar {
     display: none;
   }
+
+  /* Show Scrollbar */
+  .show-scrollbar {
+    -ms-overflow-style: auto;
+    scrollbar-width: auto;
+  }
+  .show-scrollbar::-webkit-scrollbar {
+    display: block;
+    width: 0.3em;
+    height: 0.3em;
+  }
+  .show-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .show-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.35);
+    border-radius: 9999px;
+  }
 }
 
 code {

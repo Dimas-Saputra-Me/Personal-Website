@@ -9,7 +9,7 @@ const Quote = () => {
                 <pre data-prefix=">" className="text-success"><code>Done!</code></pre>
                 <pre data-prefix="$" ><code>quote get</code></pre>
                 <pre data-prefix=">" ><code>“ A contumeliis oritur. Ex defectu discimus. ”</code></pre>
-                <pre data-prefix=">" ><code>“ Natus Vincere ”</code></pre>
+                <pre data-prefix=">" ><code>“ Alea Iacta Est. ”</code></pre>
             </div>
         </div>
     )
